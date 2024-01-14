@@ -86,16 +86,7 @@ WSGI_APPLICATION = 'docconnect.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/4.1/ref/settings/#databases
 
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'USER': 'postgres',
-        'PASSWORD': 'UNGXNIE8da5ktA1Xramx',
-        'NAME': 'railway',
-        'HOST': 'containers-us-west-3.railway.app',
-        'PORT': '7604',
-    }
-}
+
 
 
 # Password validation
